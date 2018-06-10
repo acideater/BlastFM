@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of Now Playing -->
+    <dimen name="now_playing_height">88dp</dimen>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">64dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Images -->
+    <dimen name="main_image">300dp</dimen>
+</resources>

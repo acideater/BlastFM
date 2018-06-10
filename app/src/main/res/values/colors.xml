@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#6200EE</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#3700B3</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#9e9e9e</color>
+
+    <!-- Background color for player -->
+    <color name="now_playing">#000000</color>
+
+    <!-- First Background color for radio -->
+    <color name="radio_one">#37474f</color>
+
+    <!-- Second Background color for radio -->
+    <color name="radio_two">#455a64</color>
+
+</resources>

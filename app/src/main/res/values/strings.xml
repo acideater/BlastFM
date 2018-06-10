@@ -1,0 +1,64 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">BlastFM</string>
+
+    <!-- Now Playing [CHAR LIMIT=20] -->
+    <string name="now_playing">Now Playing</string>
+
+    <!-- Player Play button [CHAR LIMIT=20] -->
+    <string name="play_track">Play</string>
+
+    <!-- Player Play button [CHAR LIMIT=20] -->
+    <string name="next_track">Next</string>
+
+    <!-- Player Play button [CHAR LIMIT=20] -->
+    <string name="prev_track">Previous</string>
+
+    <!-- Placeholder text for Song title [CHAR LIMIT=20] -->
+    <string name="song_title">Song Title</string>
+
+    <!-- Placeholder text for artists [CHAR LIMIT=20] -->
+    <string name="artist_name">Artist Name</string>
+
+    <!-- Placeholder text for Album cover [CHAR LIMIT=20] -->
+    <string name="album_cover">Album Cover</string>
+
+    <!-- Blast Highlights [CHAR LIMIT=20] -->
+    <string name="highlights">Blast Weekly Highlight</string>
+
+    <!-- Blast Highlight About [CHAR LIMIT=20] -->
+    <string name="about">The Litter was an American psychedelic and garage rock band, formed in 1966 in Minneapolis, Minnesota. They are best remembered for their 1967 debut single, "Action Woman". </string>
+
+    <!-- Play Highlight [CHAR LIMIT=20] -->
+    <string name="play_highlight">Play this artist</string>
+
+    <!-- Highlighted Song [CHAR LIMIT=20] -->
+    <string name="highlighted_song">Action Woman</string>
+
+    <!-- Highlighted Artist [CHAR LIMIT=20] -->
+    <string name="highlighted_artist">The Litter</string>
+
+    <!-- Blast Radios [CHAR LIMIT=20] -->
+    <string name="library">Blast Radios</string>
+
+    <!-- Category name for Garage Radio [CHAR LIMIT=20] -->
+    <string name="category_garage">Garage</string>
+
+    <!-- Activity title for Garage Radio [CHAR LIMIT=20] -->
+    <string name="activity_garage">BlastFM Garage Radio</string>
+
+    <!-- Category name for Punk [CHAR LIMIT=20] -->
+    <string name="category_punk">Punk &amp; Hardcore</string>
+
+    <!-- Activity title for Punk Radio [CHAR LIMIT=20] -->
+    <string name="activity_punk">BlastFM Punk &amp; HC Radio</string>
+
+    <!-- Category name for Psychedelic [CHAR LIMIT=20] -->
+    <string name="category_psychedelic">Psychedelic</string>
+
+    <!-- Activity title for Psychedelic Radio [CHAR LIMIT=20] -->
+    <string name="activity_psychedelic">BlastFM Psychedelic Radio</string>
+
+
+
+</resources>
