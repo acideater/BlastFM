@@ -16,10 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GarageActivity" android:label="@string/activity_garage" />
-        <activity android:name=".PunkActivity" android:label="@string/activity_punk" />
-        <activity android:name=".PsychedelicActivity" android:label="@string/activity_psychedelic" />
-        <activity android:name=".NowPlayingActivity" android:label="@string/now_playing" />
+        <activity
+            android:name=".GarageActivity"
+            android:label="@string/activity_garage"
+            android:parentActivityName="com.example.android.blastfm.MainActivity" />
+        <activity
+            android:name=".PunkActivity"
+            android:label="@string/activity_punk"
+            android:parentActivityName="com.example.android.blastfm.MainActivity" />
+        <activity
+            android:name=".PsychedelicActivity"
+            android:label="@string/activity_psychedelic"
+            android:parentActivityName="com.example.android.blastfm.MainActivity" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/now_playing"
+            android:parentActivityName="com.example.android.blastfm.MainActivity" />
     </application>
 
 </manifest>

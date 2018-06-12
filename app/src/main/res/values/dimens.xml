@@ -9,4 +9,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- Images -->
     <dimen name="main_image">300dp</dimen>
+    <dimen name="list_album_cover_height">64dp</dimen>
+    <dimen name="list_album_cover_width">64dp</dimen>
 </resources>

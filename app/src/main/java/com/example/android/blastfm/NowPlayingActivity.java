@@ -1,8 +1,9 @@
 package com.example.android.blastfm;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -14,7 +15,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         setContentView(R.layout.now_playing);
 
         // Find the View that shows the artists category
-        TextView artists = (TextView) findViewById(R.id.garage);
+        TextView artists = findViewById(R.id.garage);
         // Set a clickListener on that View
         artists.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,7 +29,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         });
 
         // Find the View that shows songs category
-        TextView songs = (TextView) findViewById(R.id.punk);
+        TextView songs = findViewById(R.id.punk);
         // Set a clickListener on that View
         songs.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +44,7 @@ public class NowPlayingActivity extends AppCompatActivity {
 
 
         // Find the View that shows podcasts category
-        TextView podcasts = (TextView) findViewById(R.id.psychedelic);
+        TextView podcasts = findViewById(R.id.psychedelic);
         // Set a clickListener on that View
         podcasts.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +56,10 @@ public class NowPlayingActivity extends AppCompatActivity {
                 startActivity(podcastIntent);
             }
         });
+
+        // Enable Up button
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
 
 
