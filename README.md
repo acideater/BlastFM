@@ -53,7 +53,8 @@ The code is properly formatted i.e. there are no unnecessary blank lines; there 
 The code also has proper indentation when defining variables and methods.
 
 ## Screenshots
-Soon
+<img src="https://github.com/acideater/BlastFM/blob/master/Screenshot_20180611-221320.png" width="280">
+<img src="https://github.com/acideater/BlastFM/blob/master/Screenshot_20180611-221341.png" width="280">
 
 ## Author
 
